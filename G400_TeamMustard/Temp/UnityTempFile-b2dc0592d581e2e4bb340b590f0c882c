@@ -1,0 +1,148 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp\Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity 5.4/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity 5.4/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity 5.4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity 5.4/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity 5.4/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity 5.4/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity 5.4/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity 5.4/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity 5.4/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_1_0
+-define:UNITY_2017_1
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+Assets/TDTK_Free/Scripts/AudioManager.cs
+Assets/TDTK_Free/Scripts/BuildManager.cs
+Assets/TDTK_Free/Scripts/CameraControl.cs
+Assets/TDTK_Free/Scripts/Class/TDTK_Class.cs
+Assets/TDTK_Free/Scripts/Class/TDTK_Class_AttackInstance.cs
+Assets/TDTK_Free/Scripts/Class/TDTK_Class_UnitStat.cs
+Assets/TDTK_Free/Scripts/Class/TDTK_Class_Wave.cs
+Assets/TDTK_Free/Scripts/DB/CreepDB.cs
+Assets/TDTK_Free/Scripts/DB/ResourceDB.cs
+Assets/TDTK_Free/Scripts/DB/TowerDB.cs
+"Assets/TDTK_Free/Scripts/DemoMenu&Props/DemoMenu.cs"
+"Assets/TDTK_Free/Scripts/DemoMenu&Props/Hover.cs"
+Assets/TDTK_Free/Scripts/GameControl.cs
+Assets/TDTK_Free/Scripts/LayerManager.cs
+Assets/TDTK_Free/Scripts/Misc/Blink_MGMuzzle.cs
+Assets/TDTK_Free/Scripts/Misc/LaserFade.cs
+Assets/TDTK_Free/Scripts/Misc/RotateYaxis.cs
+Assets/TDTK_Free/Scripts/Misc/SelfDeactivator.cs
+Assets/TDTK_Free/Scripts/ObjectPoolManager.cs
+Assets/TDTK_Free/Scripts/PathIndicator.cs
+Assets/TDTK_Free/Scripts/PathTD.cs
+Assets/TDTK_Free/Scripts/PlatformTD.cs
+Assets/TDTK_Free/Scripts/ResourceManager.cs
+Assets/TDTK_Free/Scripts/ShootObject.cs
+Assets/TDTK_Free/Scripts/SpawnManager.cs
+Assets/TDTK_Free/Scripts/TDTK.cs
+Assets/TDTK_Free/Scripts/UI/UI.cs
+Assets/TDTK_Free/Scripts/UI/UIBuildButton.cs
+Assets/TDTK_Free/Scripts/UI/UIClass.cs
+Assets/TDTK_Free/Scripts/UI/UIGameMessage.cs
+Assets/TDTK_Free/Scripts/UI/UIGameOverMenu.cs
+Assets/TDTK_Free/Scripts/UI/UIHUD.cs
+Assets/TDTK_Free/Scripts/UI/UIOverlay.cs
+Assets/TDTK_Free/Scripts/UI/UIPauseMenu.cs
+Assets/TDTK_Free/Scripts/UI/UITowerInfo.cs
+Assets/TDTK_Free/Scripts/UI/UIUtilities.cs
+Assets/TDTK_Free/Scripts/Unit.cs
+Assets/TDTK_Free/Scripts/UnitCreep.cs
+Assets/TDTK_Free/Scripts/UnitCreepAnimation.cs
+Assets/TDTK_Free/Scripts/UnitTower.cs
+Assets/TDTK_Free/Scripts/Utility.cs
+Assets/TDTK_Free/Scripts/WaveGenerator.cs
+-r:"C:\Program Files\Unity 5.4\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity 5.4\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity 5.4\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity 5.4\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity 5.4\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
